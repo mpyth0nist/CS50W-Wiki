@@ -7,9 +7,10 @@
 {% endblock %}
 
 {% block body %}
-	
-	{{ error }}
-
+	<div id="error">	
+		<h1>No Results</h1>
+		<p>{{ error }}</p>
+	</div>
 	{{ content }}
 
 {% endblock %}

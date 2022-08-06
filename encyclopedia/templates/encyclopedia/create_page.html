@@ -9,7 +9,7 @@
 
 {% block body %}
 
-	<form action="{% url 'wiki:save_page' %}" method="POST">
+	<form action="{% url 'wiki:create_page' %}" method="POST">
 		{% csrf_token %}
 		<div id="articletitle">
 		<h4>Title:</h4>

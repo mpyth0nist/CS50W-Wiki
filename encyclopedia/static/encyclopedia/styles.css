@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 body {
     margin: 0;
     background-color: white;
@@ -15,11 +17,30 @@ h1 {
 textarea{
 width:80%
 }
+#error > p{
+margin-top:10px;
+margin-left:10px;	
+}
+#error > h1 {
+color:#007bff;
+border-bottom:2px solid #007bff 
+}
 
 #articletitle , #articlecontent
 {
-
 margin:10px
+}
+
+#search{
+padding:7px;
+font-family: arial ,sans-serif;
+font-size:18px;
+}
+
+.searchform {
+display:flex;
+margin-bottom:20px;
+justify-content:space-around;
 }
 
 .main {
@@ -36,6 +57,12 @@ margin:10px
     background-color: #f0f0f0;
     height: 100vh;
     padding: 20px;
+}
+
+.sidebar > div {
+font-family:'Open Sans',sans-serif;
+font-size:22px;
+font-weight:500;
 }
 
 .sidebar h2 {
